@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="qspider.css">
+</head>
+<body>
+
+    <h1>Qspider & jspider Registration</h1>
+    <form method="get" action="">
+       <label for="name">Name</label> <input type="text" id="name">
+       <br>
+       <br>
+       <label for="date">D.O.B</label> <input id="date" type="date">
+      <br>
+      <br>
+       <label for="">Address:</label> <input type="text" style="height: 200px; width:300px;">
+       <br>
+       <br>
+       <label for="">Gender</label> <label for="">male</label> <input type="radio" name="a" id="male"> <label for="">Female</label><input type="radio" name="a" id="female">
+       <br>
+       <br>
+       <label for="State"></label>STATE:<select  name="" id="state" >
+        <option value="west bengal">West bengal</option>
+        <option value="karanataka">karnataka</option>
+        <option value="Goa">Goa</option>
+        <option value="west bengal">West Bengak</option>
+        <option value="tamil nadu">Tamil Nadu</option>
+        <option value="jammu& Kashmir">Jammu & Kashmir</option>
+        <option value="hariyana">Hariyana</option>
+
+    </select>
+   
+    
+    <br>
+    <br>
+    <button name="submit" >Submit</button>
+    <button name="reset">Reset</button>
+    <br>
+   
+    </form>
+</body>
+</html>
